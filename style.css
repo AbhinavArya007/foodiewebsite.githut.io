@@ -11,7 +11,7 @@ body {
 .header {
     height: 100px;
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
-    width: 100%;
+    width: 99%;
     margin: 5px;
 }
 
@@ -57,6 +57,7 @@ body {
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
     border-radius: 50%;
     width: 400px;
+    margin-top: 30px;
     margin-left: 35%;
 }
 
@@ -64,6 +65,15 @@ body {
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
     border-radius: 50%;
     width: 400px;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+.drinks_heading {
+    background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+    border-radius: 50%;
+    width: 400px;
+    margin-top: 30px;
     margin-left: 35%;
 }
 
@@ -75,18 +85,18 @@ h2 {
 }
 
 img {
-    height: 300px;
-    width: 400px;
+    background-color: #000000;
     border-radius: 30px;
     margin: 15px;
     margin-bottom: 10px;
     padding: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition-duration: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transition-duration: 1s;
 }
 
 .item-name {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .foot_link {
@@ -96,7 +106,7 @@ img {
 .footer {
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
     color: aliceblue;
-    margin: 10px;
+    margin: 5px;
 }
 
 .icon {
@@ -117,15 +127,21 @@ img {
     padding: 10px 20px;
 }
 
+.clicklink {
+    padding: 10px;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+
 .clicklink:hover {
-    text-decoration: underline;
-    text-shadow: 10px #200122;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: #000000;
 }
 
 img:hover {
-    padding: 15px;
-    height: 280px;
-    width: 380px;
+    background: linear-gradient(to right, #c0392b, #8e44ad);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
 #f-h1:hover {
