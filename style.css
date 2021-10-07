@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to right, #c0392b, #8e44ad);
+    background-image: 100%;
+}
+
+.header {
+    height: 100px;
+    background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+    width: 100%;
+    margin: 5px;
+}
+
+.div_logo {
+    width: 30%;
+    float: left;
+    color: aliceblue;
+    padding: 25px 30px 10px 50px;
+    height: 60px;
+}
+
+.header_link {
+    width: 60%;
+    float: right;
+    padding-top: 35px;
+    height: 60px;
+    padding-right: 30px;
+}
+
+.header_link a {
+    text-align: left;
+    color: white;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1 {
+    margin: 15px;
+}
+
+#f-h1 {
+    color: rgb(16, 0, 165);
+    transition-duration: 1s;
+}
+
+#f-h2 {
+    color: rgb(109, 1, 1);
+    transition-duration: 1s;
+}
+
+.pizza-heading {
+    background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+    text-align: center;
+    border-radius: 50%;
+    width: 250px;
+    margin: 20px;
+}
+
+.burger_heading {
+    background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+}
+
+h2 {
+    color: #fbc6ff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 0.2s;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.foot_link {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+    color: aliceblue;
+    margin: 10px;
+}
+
+.icon {
+    margin: 10px;
+}
+
+#foot-copyright {
+    font-weight: bold;
+}
+
+.normal-text {
+    font-weight: 0;
+    font-size: small;
+    padding: 10px 20px;
+}
+
+.clicklink:hover {
+    text-decoration: underline;
+    text-shadow: 10px #200122;
+}
+
+img:hover {
+    padding: 15px;
+    height: 280px;
+    width: 380px;
+}
+
+#f-h1:hover {
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+#f-h2:hover {
+    text-shadow: 2px 2px 5px rgb(252, 252, 252);
+}
