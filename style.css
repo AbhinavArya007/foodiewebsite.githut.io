@@ -32,16 +32,11 @@ body {
 }
 
 .header_link a {
-    text-align: left;
     color: white;
     padding-right: 30px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-}
-
-.main {
-    text-align: center;
 }
 
 .main h1 {
@@ -50,24 +45,26 @@ body {
 
 #f-h1 {
     color: rgb(16, 0, 165);
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 #f-h2 {
     color: rgb(109, 1, 1);
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .pizza-heading {
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
-    text-align: center;
     border-radius: 50%;
-    width: 250px;
-    margin: 20px;
+    width: 400px;
+    margin-left: 35%;
 }
 
 .burger_heading {
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
+    border-radius: 50%;
+    width: 400px;
+    margin-left: 35%;
 }
 
 h2 {
@@ -93,12 +90,10 @@ img {
 }
 
 .foot_link {
-    text-align: center;
     padding: 10px 0px 20px 0px;
 }
 
 .footer {
-    text-align: center;
     background-image: linear-gradient(to right, #200122, rgb(83, 15, 15));
     color: aliceblue;
     margin: 10px;
@@ -106,6 +101,10 @@ img {
 
 .icon {
     margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    transition-duration: 1s;
+    border-radius: 50px;
 }
 
 #foot-copyright {
@@ -135,4 +134,8 @@ img:hover {
 
 #f-h2:hover {
     text-shadow: 2px 2px 5px rgb(252, 252, 252);
+}
+
+.icon:hover {
+    background: rgb(255, 255, 255);
 }
